@@ -25,3 +25,9 @@
   - True Positive (TP): the message is spam, 209
   - False Negative (FN): the message is actually spam, but the model predicted it was not, 90
   - False Positive (FP): e.g., the message is not spam, but the model predicted it was, 0
+
+## References:
+
+- https://towardsdatascience.com/email-spam-detection-1-2-b0e06a5c0472
+- https://studymachinelearning.com/tfidfvectorizer-for-text-classification/
+- https://scikit-learn.org/stable/modules/naive_bayes.html
