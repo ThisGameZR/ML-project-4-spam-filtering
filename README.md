@@ -11,3 +11,17 @@
   - TF-IDF vectorization: Convert the preprocessed text into a numerical representation that captures the importance of each word or feature in the document relative to the corpus.
 - Classifier:
   - Naive Bayes: Use the Multinomial Naive Bayes algorithm to classify the preprocessed text data into spam or ham categories based on the probabilities of the different words or features that are present in the message.
+
+## Performance of model:
+
+- Confusion Matrix
+
+|           | Predicted Ham | Predicted Spam |
+|-----------|---------------|----------------|
+| Actual Ham   |      1930       |          0            |
+| Actual Spam  |       90        |          209          |
+
+  - True Negative (TN): the message is not spam
+  - True Positive (TP): the message is spam
+  - False Negative (FN): the message is actually spam, but the model predicted it was not
+  - False Positive (FP): e.g., the message is not spam, but the model predicted it was
