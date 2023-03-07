@@ -18,13 +18,17 @@
 
 |           | Predicted Ham | Predicted Spam |
 |-----------|---------------|----------------|
-| Actual Ham   |      1930       |          0            |
-| Actual Spam  |       90        |          209          |
+| Actual Ham   |      1920       |          10           |
+| Actual Spam  |       46        |          253          |
 
   - True Negative (TN): the message is not spam, 1930
   - True Positive (TP): the message is spam, 209
   - False Negative (FN): the message is actually spam, but the model predicted it was not, 90
   - False Positive (FP): e.g., the message is not spam, but the model predicted it was, 0
+
+- Overall
+  - Precision of 99%
+  - Recall of 85%, the model can accurately predict over 85% of spam
 
 ## References:
 
